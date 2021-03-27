@@ -1,15 +1,15 @@
 * {
   box-sizing: border-box;
 }
-.img_area {
-  border-radius: 15px;
+img {
+  border-radius: 50%;
 }
-.area_container {
+.trans_container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.area {
+.trans {
   position: relative;
   text-align: center;
   color: white;
@@ -18,7 +18,7 @@
   justify-content: center;
   transition: transform 0.5s;
 }
-.area:hover {
+.trans:hover {
   -ms-transform: scale(1.1); /* IE 9 */
   -webkit-transform: scale(1.1); /* Safari 3-8 */
   transform: scale(1.1);

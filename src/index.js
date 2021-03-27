@@ -1,12 +1,16 @@
+/*global kakao*/ 
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Trinity from './Trinity';
+import Search from './Search';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.css'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Search />
   </React.StrictMode>,
   document.getElementById('root')
 );
